@@ -10,74 +10,74 @@ body {
 }
 
 .container {
-   background-color: #0a0a0a;
-   border-radius: 13px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   padding: 20px;
-   margin: 20px auto;
-   overflow: auto;
-   opacity: 0.6;
+  background-color: Cyan;
+  border-radius: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  overflow: auto;
+  opacity: 0.5;
 }
 
 .form-item {
-   padding: 9px;
+  padding: 9px;
 }
 
 h1 {
-   color: #343a40;
+  color: #343a40;
 }
 
 .form-item label {
-   font-size: 15px;
-   color: blue;
-   margin-bottom: 5px;
-   display: block;
+  font-size: 15px;
+  color: blue;
+  margin-bottom: 5px;
+  display: block;
 }
 
-input, button {
-   background: black;
-   color: #fff;
-   border: solid 1px red;
-   box-sizing: border-box;
-   width: 100%;
-   margin-bottom: 10px;
-   padding: 10px;
-   border-radius: 4px;
-   font-size: 16px;
+input,
+button {
+  background: black;
+  color: #fff;
+  border: solid 1px red;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 button {
-   cursor: none;
-   color: #0a0a0a;
-   background-color: #ededed;
+  cursor: none;
+  color: #0a0a0a;
+  background-color: #ededed;
 }
 
 button:hover {
-   background: #CCC;
+  background: #CCC;
 }
 
 #result {
-   display: none;
-   text-align: center;
-   background-color: #ededed;
-   border: solid 1px #222;
-   padding: 10px;
-   border-radius: 4px;
-   color: #0a0a0a;
+  display: none;
+  text-align: center;
+  background-color: #ededed;
+  border: solid 1px #222;
+  padding: 10px;
+  border-radius: 4px;
+  color: #0a0a0a;
 }
 
-#process {
-}
+#process {}
 
 .current-online {
-   font-size: 13px;
-   background: #0a0a0a;
-   padding: 10px;
-   color: #898989;
-   border: solid 1px #898989;
-   border-radius: 4px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   margin-bottom: 10px;
-   overflow: auto;
-   white-space: nowrap;
+  font-size: 13px;
+  background: #0a0a0a;
+  padding: 10px;
+  color: #898989;
+  border: solid 1px #898989;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  overflow: auto;
+  white-space: nowrap;
 }
