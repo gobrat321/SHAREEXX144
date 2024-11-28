@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('https://i.ibb.co/g9z2mnt/18ee0d711fc1b266e65f6a389966d65c.gif');
+  background-image: url('https://i.ibb.co/DV097cF/8cd632d1be81bb70020f2e54cacd02fd.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,11 +10,11 @@ body {
 }
 
 .form-item {
-  padding: 9px;
+  padding: 13px;
 }
 
 h1 {
-  color: #343a40;
+  color: Blue;
 }
 
 .form-item label {
@@ -26,16 +26,16 @@ h1 {
 
 input,
 button {
-  background: black;
+  background: white;
   color: #fff;
   border: solid 2px red;
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 9px;
-  padding: 15px;
-  border-radius: 7px;
+  padding: 17px;
+  border-radius: 10px;
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 button {
@@ -56,4 +56,16 @@ button:hover {
   padding: 10px;
   border-radius: 4px;
   color: #0a0a0a;
+}
+.container {
+  background: white;
+  color: black;
+  border: solid 2px red;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 9px;
+  padding: 17px;
+  border-radius: 10px;
+  font-size: 16px;
+  opacity: 0.5;
 }
