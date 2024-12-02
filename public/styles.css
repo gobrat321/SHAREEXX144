@@ -1,71 +1,78 @@
+/* styles.css */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url('https://i.ibb.co/DV097cF/8cd632d1be81bb70020f2e54cacd02fd.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color #00ff00:
-    color: #333;
-  padding: 24px;
+  height: 100vh;
+  overflow: hidden;
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-item {
-  padding: 13px;
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.form-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  text-align: center;
 }
 
 h1 {
-  color: Blue;
-}
-
-.form-item label {
-  font-size: 15px;
-  color: blue;
-  margin-bottom: 5px;
-  display: block;
-}
-
-input,
-button {
-  background: white;
+  margin-bottom: 20px;
   color: #fff;
-  border: solid 2px red;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 9px;
-  padding: 17px;
-  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, button {
+  padding: 15px;
   font-size: 16px;
-  opacity: 0.3;
+  border: none;
+  border-radius: 8px;
+}
+
+input {
+  background: #333;
+  color: #fff;
 }
 
 button {
-  cursor: none;
-  color: #0a0a0a;
-  background-color: green;
+  background: #28a745;
+  color: #fff;
+  cursor: pointer;
 }
 
 button:hover {
-  background: #CCC;
+  background: #218838;
 }
 
 #result {
-  display: none;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
   text-align: center;
-  background-color: #ededed;
-  border: solid 1px #222;
-  padding: 10px;
-  border-radius: 4px;
-  color: #0a0a0a;
 }
-.container {
-  background: white;
-  color: black;
-  border: solid 2px red;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 9px;
-  padding: 17px;
-  border-radius: 10px;
-  font-size: 16px;
-  opacity: 0.5;
+
+#processing .current-online {
+  background: #444;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
 }
