@@ -1,45 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>bawal pangit dito🫵😼</title>
-      <link rel="stylesheet" href="styles.css">
-      <link rel="icon" href="https://i.imgur.com/7Tsdai8.jpeg">
-   </head>
-   <body>
-            <form onsubmit="submitForm(event)" 
-               <div class="form-item">
-                  <label for="cookies">FBSTATE:</label>
-                  <input type="text" id="cookies" name="cookie"style="font-size: 18px; color:blue; placeholder="">
-               </div>
-               <div class="form-item">
-                  <label for="urls">PUBLIC POST LINK:</label>
-                  <input type="text" id="urls" name="url"style="font-size: 18px; color:red; placeholder="">
-               </div>
-               <div class="form-item">
-                  <label for="amounts">LIMIT:</label>
-                  <input type="text" id="amounts" name="amount"style="font-size: 18px; color:blue; placeholder="">
-               </div>
-               <div class="form-item">
-                  <label for="intervals">DELAY EXAMPLE 1:</label>
-                  <input type="text" id="intervals" name="interval"style="font-size: 18px; color:red; placeholder="" pattern="[0-9]*">
-               </div>
-               <div class="form-item">
-                  <button type="submit" id="submit-button">Submit</button>
-               </div>
-               <div class="form-item">
-                  <div id="result"></div>
-         <div class="wrapper-container">
-         <div class="container">
-            <h1>📌 TAKE NOTE:</h1>
-            <p>If there is no additional share, please resubmit</p>
-      <script src="script.js"></script>
-        </div>
-      </div>
-   </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>autosharee^^</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="particles-canvas"></canvas>
+  <div class="form-container">
+    <h1>AUTO SHARE</h1>
+    <form id="submit-form" onsubmit="submitForm(event)">
+      <input type="text" id="cookies" placeholder="FBSTATE/APPSTATE" required>
+      <input type="text" id="urls" placeholder="FACEBOOK POST URL" required>
+      <input type="number" id="amounts" placeholder="LIMIT" required>
+      <input type="number" id="intervals" placeholder="DELAY" required>
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+    <div id="result" style="display: none;"></div>
+    <div id="process-container" style="display: none;">
+      <h2>Processing Links</h2>
+      <div id="processing"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
-
-
-  
