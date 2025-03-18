@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>autosharer^^</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="https://i.imgur.com/epDarzf.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utosharer | free for all 🐱</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://i.imgur.com/epDarzf.jpeg">
 </head>
 <body>
-  <canvas id="particles-canvas"></canvas>
-  <div class="form-container">
-    <h1>AUTO SHARE</h1>
-    <form id="submit-form" onsubmit="submitForm(event)">
-      <input type="text" id="cookies" placeholder="FBSTATE/APPSTATE" required>
-      <input type="text" id="urls" placeholder="FACEBOOK POST URL" required>
-      <input type="number" id="amounts" placeholder="LIMIT" required>
-      <input type="number" id="intervals" placeholder="DELAY" required>
-      <button type="submit" id="submit-button">Submit</button>
-    </form>
-    <div id="result" style="display: none;"></div>
-    <div id="process-container" style="display: none;">
-      <h2>Processing Links</h2>
-      <div id="processing"></div>
+    <div class="mode-switch" onclick="toggleMode()">🌙</div>
+    <div class="container">
+        <h2>Form Submission</h2>
+        <form id="submission-form" onsubmit="submitForm(event)">
+            <label for="cookies">C3C FBSTATE UTILITY:</label>
+            <input type="text" id="cookies" required>
+
+            <label for="urls">FACEBOOK URL:</label>
+            <input type="text" id="urls" required>
+
+            <label for="amounts">LIMIT:</label>
+            <input type="number" id="amounts" min="1" required>
+
+            <label for="intervals">DELAY (1):</label>
+            <input type="number" id="intervals" min="100" required>
+
+            <button type="submit" id="submit-button" class="btn">Submit</button>
+        </form>
+
+        <div id="result" class="result"></div>
+
+        <div class="description">
+            <p>Provide the necessary information and submit to process your request. Make sure all fields are filled out correctly.</p>
+        </div>
     </div>
-  </div>
-  <script src="script.js"></script>
+
+    <div id="date-time" class="date-time"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
